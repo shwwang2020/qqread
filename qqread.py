@@ -273,7 +273,7 @@ def start(index, secrets):
     tz += f"【{task_data['taskList'][2]['title']}】{task_data['taskList'][2]['amount']}金币,{task_data['taskList'][2]['actionText']}\n"
     tz += f"【{task_data['taskList'][3]['title']}】{task_data['taskList'][3]['amount']}金币,{task_data['taskList'][3]['actionText']}\n"
     #tz += f"【第{task_data['invite']['issue']}期】时间{task_data['invite']['dayRange']} [已邀请{task_data['invite']['inviteCount']}人，再邀请{task_data['invite']['nextInviteConfig']['count']}人获得{task_data['invite']['nextInviteConfig']['amount']}金币]\n"
-    tz += f"【{task_data['fans']['title']}】{task_data['fans']['fansCount']}个好友,{task_data['fans']['todayAmount']}金币\n"
+    #tz += f"【{task_data['fans']['title']}】{task_data['fans']['fansCount']}个好友,{task_data['fans']['todayAmount']}金币\n"
     tz += f"【宝箱任务{task_data['treasureBox']['count'] + 1}】{task_data['treasureBox']['tipText']}\n"
 
     if task_data['treasureBox']['doneFlag'] == 0:
